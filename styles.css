@@ -1,0 +1,138 @@
+body {
+    margin: 10px;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('ball.gif');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    
+}
+body p:hover{
+
+    color: chartreuse;
+    text-decoration-color: aquamarine;
+    }
+header {
+    background-color: #5D6D7E;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a.active {
+    color: #ffc107;
+    /* Add any additional styles for the active link */
+}
+
+
+nav a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration-style: wavy; /* Fix the typo here */
+    transition: all;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    transition: color 0.2s;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main {
+    text-align: center;
+    padding: 50px 0;
+   
+}
+
+.pic {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-top: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.menu-image {
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.menu-image img {
+    width: 20px; 
+    height: 20px; 
+}
+ h1 span{
+    color:#FFA000;
+ }
+ img :hover{
+ box-shadow: #5D6D7E;
+ padding: 0%;
+ pointer-events: painted;
+ }
+
+
+
+
+ #repositories {
+    display: none;
+    cursor: pointer;
+    
+  }
+
+  .repositories {
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+   transition-delay: 0.3s;
+  }
+
+  .repositories:hover {
+    transform: translateY(-10px);
+    
+  }
+
+  .repositories img {
+    width: 94px;
+    height: 94px;
+  }
+
+  .projects {
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+
+.projects:hover {
+    transform: translateY(-10px);
+}
+
+.projects img {
+    width: 94px;
+    height: 94px;
+}
+
+
+  

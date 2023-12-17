@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spa Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+    <header>
+        <h1> Hi, I'm <span>Loren Dacol.</span> This is my Portfolio.</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="navigateTo('home')">Home</a></li>
+                <li><a href="#" onclick="navigateTo('about')">About</a></li>
+                <li><a href="#" onclick="navigateTo('projects')">Projects</a></li>
+                <li><a href="#" onclick="navigateTo('repositories')">Repositories</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <main id="home" class="container">
+        <h2>Loren Dacol at your service</h2>
+        <p>"The internet is becoming the town square for the global village of tomorrow."</p>
+        <img class="pic" src="mine.jpg" alt="Home Image">
+    </main>
+
+    <main id="about" class="container">
+        <h2>About Me</h2>
+        <pre>"I'm Loren Dacol, currently studying at NBSC. I have a profound love for reading, and my chosen course of study is IT (Information Technology).</pre>
+        <img class="pic" src="mine.jpg" alt="About Image">
+    </main>
+
+    <main id="projects" class="container" style="display: none; cursor: pointer;" onclick="openProjects()">
+        <div class="projects">
+            <h3>
+                <a href="https://github.com/Loren143/bubblesortt">
+                   <img width="94" height="94" src="pngfind.png">
+                </a>
+            </h3>
+        </div>
+    </main>
+
+    <main id="repositories" class="container" style="display: none; cursor: pointer;" onclick="openRepositories()">
+        <div class="repositories">
+            <h3>
+                <a href="https://github.com/Loren143/IT21C_PORTFOLIO/tree/main/src">
+            
+            <img width="94" height="94" src="pngfind.png"></a>
+        </h3>
+        </div>
+    </main>
+
+    <script src="Script.js"></script>
+</body>
+
+</html>
