@@ -370,3 +370,136 @@ img {
       height: auto;
       margin-bottom: 10px;
   }
+  @media screen and (max-width: 30px) {
+    .home {
+      row-gap: 2rem;
+    }
+    .home__img {
+      width: 200px;
+    }
+  }
+  
+  @media screen and (min-width: 576px) {
+    .home {
+      padding: 4rem 0 2rem;
+    }
+    .home__social {
+      padding-top: 0;
+      padding-bottom: 2.5rem;
+      flex-direction: row;
+      align-self: flex-end;
+    }
+    .home__social-icon {
+      margin-bottom: 0;
+      margin-right: var(--mb-4);
+    }
+    .home__img {
+  
+      width: 300px;
+      bottom: 25%;
+    }
+    .about__container {
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      text-align: initial;
+    }
+    .Projects__container {
+      grid-template-columns: .7fr;
+      justify-content: center;
+      column-gap: 1rem;
+    }
+    .repositories__container {
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 2rem;
+      padding-top: 2rem;
+    }
+    .contact__form {
+      width: 360px;
+      padding-top: 2rem;
+    }
+    .contact__container {
+      justify-items: center;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    body {
+      margin: 0;
+    }
+    .section {
+      padding-top: 4rem;
+      padding-bottom: 3rem;
+    }
+    .section-title {
+      margin-bottom: var(--mb-6);
+    }
+    .section-title::after {
+      width: 80px;
+      top: 3rem;
+    }
+    .nav {
+      height: calc(var(--header-height) + 1.5rem);
+    }
+    .nav__list {
+      display: flex;
+      padding-top: 0;
+    }
+    .nav__item {
+      margin-left: var(--mb-6);
+      margin-bottom: 0;
+    }
+    .nav__toggle {
+      display: none;
+    }
+    .nav__link {
+      color: var(--second-color);
+    }
+    .home {
+      padding: 8rem 0 2rem;
+    }
+    .home__img {
+      width: 400px;
+      bottom: 10%;
+    }
+    .about__container {
+      padding-top: 2rem;
+    }
+    .about__img img {
+      width: 300px;
+    }
+    .Projects__container {
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 2rem;
+      align-items: center;
+      text-align: initial;
+    }
+    .repositories__container {
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 2rem;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .bd-grid {
+      margin-left: 100px;
+      margin-right: auto;
+    }
+    .home {
+      padding: 10rem 0 2rem;
+    }
+    .home__img {
+      width: 450px;
+      position: absolute;
+      top: 12;
+      right: 0;
+      width: 355px; 
+      height: 300px; 
+      border-radius: 50%;
+      
+    }
+  }
+  body {
+      background-color: rgba(38, 30, 71, 0.941);
+      color: rgb(239, 239, 239);
+  }
+  
