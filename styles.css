@@ -27,9 +27,8 @@
     --smaller-font-size: .875rem;
   }
 }
-
-/*===== BASE =====*/
-*, ::before, ::after {
+ 
+ *, ::before, ::after {
   box-sizing: border-box;
 }
 
@@ -59,9 +58,8 @@ img {
   height: auto;
   display: block;
 }
-
-/*===== CLASS CSS ===== */
-.section-title {
+ 
+ .section-title {
   position: relative;
   font-size: var(--h2-font-size);
   color: var(--first-color);
@@ -86,7 +84,7 @@ img {
   padding-top: 3rem;
   padding-bottom: 2rem;
 }
-/*===== LAYOUT =====*/
+
 .bd-grid {
     max-width: 1024px;
     display: grid;
@@ -103,9 +101,8 @@ img {
     background-color: #ffffff;
     box-shadow: 0 1px 4px rgba(187, 3, 3, 0.15);
   }
-  
-  /*===== NAV =====*/
-  .nav {
+   
+   .nav {
     height: var(--header-height);
     display: flex;
     justify-content: space-between;
@@ -159,7 +156,7 @@ img {
     cursor: pointer;
   }
   
-  /*Active menu*/
+  
   .active::after {
     position: absolute;
     content: '';
